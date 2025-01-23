@@ -51,10 +51,6 @@ const uint8_t Control8[4] = { 0x00, 0x00, 0x00, 0x08 };  // 控制码8,通知电
 // -所需权限地址-
 const uint8_t Address[4] = { 0x00, 0x00, 0x00, 0x01 };  // 所需权限码在钥匙内的地址(多了可以编写表格查表)
 
-// -通讯所需-
-const uint8_t Header[2] = { 0xAA, 0x55 };  // 数据包包头用于发送函数
-const uint8_t Tail[2] = { 0x55, 0xAA };    // 数据包包尾用于发送函数
-
 // 枚举状态库
 enum VState {
   idle,
