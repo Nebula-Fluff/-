@@ -31,7 +31,6 @@ uint8_t SelectBlock[4];          // 暂存选择权限码地址块数据
 String timeout;                  // 超时代码存储区
 volatile bool cisrflag = false;  // 通讯超时中断标志位
 volatile bool aisrflag = false;  // 权限超时中断标志位
-uint8_t GetID[12];               // 暂存收到的ID
 
 // --不可变数组声明区--
 // -钥匙码-
