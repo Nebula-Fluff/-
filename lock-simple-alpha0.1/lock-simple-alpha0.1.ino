@@ -24,7 +24,6 @@ Ticker timer;                         // 创建计时实例
 // 声明数组区
 // --可变数组声明区--
 uint8_t SystemDataPacket[128];   // 暂存收到的加密数据包
-uint8_t TransferData[12];        // 暂存内数据包数据载荷
 uint8_t ControlByte[4];          // 暂存控制位
 uint8_t RandomNum[36];           // 暂存随机数
 uint8_t SelectBlock[4];          // 暂存选择权限码地址块数据
