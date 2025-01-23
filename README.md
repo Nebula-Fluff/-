@@ -6,7 +6,7 @@ TXD-RXD
 RXD-TXD
 GND-GND
 ## 简介
-使用Ed25519签名来核实身份以及数据包是否被篡改，从而始简单的权限码能够比较安全
+使用Ed25519签名来核实身份以及数据包是否被篡改，从而使简单的权限码能够比较安全
 ## 数据包结构
 SystemDataPacket:  
 Signature(64Byte)+PermissionCode(12Byte)+keyID(12Byte)+RandomNum(36Byte)+Control(4Byte)  
