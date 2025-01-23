@@ -1,1 +1,7 @@
 # 基于ArduinoIDE的ESP8266身份验证系统
+##接线
+SDA-D2(GPIO4)
+SCL-D1(GPIO5)
+TXD-RXD
+RXD-TXD
+GND-GND
